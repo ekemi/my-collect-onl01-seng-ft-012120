@@ -13,6 +13,6 @@ end
 
 my_collection( []) do |elemnt|
   
-           counter += 1
+           counter = counter +1 
            
            end
