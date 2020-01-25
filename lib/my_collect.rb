@@ -14,6 +14,6 @@ end
 my_collect( []) do |elemnt|
   
          # puts"#{elemnt}"
-          counter = counter +1
+          counter = counter 
            
            end
