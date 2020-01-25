@@ -6,13 +6,13 @@ def my_collection(collection)
   if  collection.length == 0
    
      yield(collection[counter])
-   counter+=1
+   counter += 1
      end
   
 end 
 
 my_collection( []) do |elemnt|
   
-           counter+=1
+           counter += 1
            
            end
