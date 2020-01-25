@@ -8,7 +8,7 @@ def my_collect(collection)
      yield(collection)
    
      end
-  
+  collection
 end 
   counter = 0
 my_collect( []) do |elemnt|
