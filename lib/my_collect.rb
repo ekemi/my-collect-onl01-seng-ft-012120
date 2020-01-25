@@ -11,9 +11,9 @@ def my_collect(collection)
 #  collection
 end 
  # counter = 0
-my_collect( []) do |elemnt|
+my_collect( [])# do |elemnt|
   
          # puts"#{elemnt}"
-          counter = counter 
+     #   ret  counter = counter 
            
-           end
+        #   end
