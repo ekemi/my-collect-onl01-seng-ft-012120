@@ -3,7 +3,7 @@ def my_collection(collection)
   
   counter = 1 
   
-  while counter < collection.length 
+  if  collection.length == 0
    
      yield(collection[counter])
    counter+=1
