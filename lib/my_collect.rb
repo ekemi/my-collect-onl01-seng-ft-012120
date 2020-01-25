@@ -5,15 +5,15 @@ def my_collection(collection)
   
   if  collection.length == 0
    
-     yield(collection[counter])
-   counter += 1
+     yield(collection)
+   
      end
   
 end 
-
+  counter = 1 
 my_collection( []) do |elemnt|
   
-          puts"#{elemnt}"
-          # counter = counter +1 
+         # puts"#{elemnt}"
+          counter = counter +1 
            
            end
