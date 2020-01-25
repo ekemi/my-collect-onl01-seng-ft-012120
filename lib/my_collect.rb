@@ -11,4 +11,4 @@ def my_collect(array)
   name_collection
 end
 
-my_collect(list) {|counter| counter.split(" ").first}
+my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) {|counter| counter.split(" ").first}
