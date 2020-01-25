@@ -11,7 +11,7 @@ def my_collection(collection)
   
 end 
 
-my_collection( "ruby") do |elemnt|
+my_collection( []) do |elemnt|
   
            puts "#{elemnt}"
            
