@@ -8,12 +8,12 @@ def my_collect(collection)
      yield(collection)
    
      end
-  collection
+#  collection
 end 
-  counter = 0
+ # counter = 0
 my_collect( []) do |elemnt|
   
          # puts"#{elemnt}"
-          counter = counter 
+          counter = counter +1
            
            end
