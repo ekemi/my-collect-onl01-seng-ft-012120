@@ -10,10 +10,10 @@ def my_collect(collection)
      end
 #  collection
 end 
- # counter = 0
-my_collect( [])# do |elemnt|
+  counter = 0
+my_collect( []) do |elemnt|
   
          # puts"#{elemnt}"
-     #   ret  counter = counter 
+      return    counter = counter 
            
-        #   end
+         end
