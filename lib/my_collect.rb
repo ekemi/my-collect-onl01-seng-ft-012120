@@ -13,6 +13,6 @@ end
 
 my_collection( []) do |elemnt|
   
-           puts "#{elemnt}"
+           counter+=1
            
            end
