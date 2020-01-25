@@ -3,9 +3,9 @@ def my_collection(collection)
   
   counter = 1 
   
-  while i < collection.length 
+  while counter < collection.length 
    
-     yield(collection[i])
+     yield(collection[counter])
    counter+=1
      end
   
