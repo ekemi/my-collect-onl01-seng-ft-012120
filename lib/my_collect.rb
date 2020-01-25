@@ -1,7 +1,7 @@
 
 def my_collect(collection)
   
-  counter = 0
+  counter = -1
   
   if  collection.length == 0
    
