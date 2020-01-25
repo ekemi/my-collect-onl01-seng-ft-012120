@@ -1,7 +1,7 @@
 
 def my_collect(collection)
   
-  counter = 0
+ # counter = 0
   
   if  collection.length == 0
    
@@ -10,10 +10,10 @@ def my_collect(collection)
      end
   
 end 
-  counter = 1 
+  counter = 0
 my_collect( []) do |elemnt|
   
          # puts"#{elemnt}"
-          counter = counter +1 
+          counter = counter +1
            
            end
