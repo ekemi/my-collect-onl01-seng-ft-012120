@@ -6,7 +6,7 @@ def my_collection(collection)
   while i < collection.length 
    
      yield(collection[i])
-  
+   counter+=1
      end
   
 end 
