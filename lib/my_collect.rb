@@ -1,5 +1,5 @@
 
-def my_collection(collection)
+def my_collect(collection)
   
   counter = 1 
   
@@ -11,7 +11,7 @@ def my_collection(collection)
   
 end 
   counter = 1 
-my_collection( []) do |elemnt|
+my_collect( []) do |elemnt|
   
          # puts"#{elemnt}"
           counter = counter +1 
